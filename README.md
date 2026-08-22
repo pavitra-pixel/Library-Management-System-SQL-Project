@@ -24,8 +24,8 @@ Diagram of how the tables connect:
 
 A couple of small but important design details:
 
-- A branch has one manager, and that manager is an employee — so *branch* and *employee* point to each other. Both tables are created first, and the connection between them is added afterward, so there's no "which one comes first" problem.
-- The database itself blocks bad data — for example, it won't let *available_copies* be a negative number or be higher than *total_copies*, and it won't let a due date be earlier than the issue date.
+- A branch has one manager, and that manager is an employee — so `branch` and `employee` point to each other. Both tables are created first, and the connection between them is added afterward, so there's no "which one comes first" problem.
+- The database itself blocks bad data — for example, it won't let `available_copies` be a negative number or be higher than `total_copies`, and it won't let a due date be earlier than the issue date.
 
 ## Tools Used
 
@@ -87,7 +87,7 @@ ON isr.isbn = b.isbn;
 
 **Q10. Who are the top 3 members that borrow the most?**
 
-*Uses DENSE_RANK() to rank members without skipping numbers when there's a tie.*
+*Uses `DENSE_RANK()` to rank members without skipping numbers when there's a tie.*
 
 ```sql
 SELECT *
@@ -182,7 +182,7 @@ BEGIN
 END;
 $$
 ```
-Used like this: *CALL issue_book(212, 103, 9780743247224);*
+Used like this: `CALL issue_book(212, 103, 9780743247224);`
 
 **Q21. Create procedure to return a book**
 
@@ -221,7 +221,7 @@ BEGIN
 END;
 $$
 ```
-Used like this: *CALL return_book(1041);*
+Used like this: `CALL return_book(1041);`
 
 ## Problems Found and Fixed While Building This
 
