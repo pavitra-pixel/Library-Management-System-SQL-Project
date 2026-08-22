@@ -1,0 +1,38 @@
+isbn,book_title,category,rental_price,author,publisher,total_copies,available_copies
+9780141187761,One Hundred Years of Solitude,Literary Fiction,6.5,Gabriel Garcia Marquez,Penguin Books,4,4
+9780141441716,Jane Eyre,Classic,4,Charlotte Bronte,Penguin Classics,4,4
+9780307378401,The Alchemist,Fiction,2.5,Paulo Coelho,HarperOne,6,6
+9780743247224,The Da Vinci Code,Mystery,8,Dan Brown,Doubleday,5,5
+9780099578079,A Game of Thrones,Fantasy,7.5,George R.R. Martin,Bantam,2,2
+9780393050818,A Peoples History of the United States,History,9,Howard Zinn,Harper Perennial,2,2
+9780192805511,The Guns of August,History,7,Barbara W. Tuchman,Oxford University Press,4,4
+9780140449303,The Histories,History,5.5,Herodotus,Penguin Classics,2,2
+9780393912578,"Guns, Germs, and Steel: The Fates of Human Societies",History,7,Jared Diamond,W. W. Norton & Company,4,4
+9780679641153,1984,Dystopian,6.5,George Orwell,Penguin Books,4,4
+9780670813024,The Road,Dystopian,7,Cormac McCarthy,Knopf,2,2
+9780385333120,The Shining,Horror,6,Stephen King,Doubleday,4,4
+9780553573401,1984,Dystopian,6.5,George Orwell,Penguin Books,3,3
+9781601294562,To Kill a Mockingbird,Classic,6,Harper Lee,J.B. Lippincott & Co.,4,4
+9780307588371,Sapiens: A Brief History of Humankind,History,8,Yuval Noah Harari,Harper Perennial,2,1
+9780375413988,The Diary of a Young Girl,History,6.5,Anne Frank,Bantam,2,1
+9780743273571,1491: New Revelations of the Americas Before Columbus,History,6.5,Charles C. Mann,Vintage Books,2,1
+9780375501670,The Road,Dystopian,7,Cormac McCarthy,Vintage,2,1
+9780451529935,Fahrenheit 451,Dystopian,5.5,Ray Bradbury,Ballantine Books,4,3
+9780345391803,Dune,Science Fiction,8.5,Frank Herbert,Ace,4,3
+9780060254926,Where the Wild Things Are,Children,3.5,Maurice Sendak,HarperCollins,4,3
+9780061122415,The Kite Runner,Fiction,5.5,Khaled Hosseini,Riverhead Books,5,4
+9780064400558,Charlotte's Web,Children,4,E.B. White,Harper & Row,4,3
+9780679776443,Beloved,Fiction,6.5,Toni Morrison,Knopf,7,6
+9780140275263,A Tale of Two Cities,Classic,4.5,Charles Dickens,Penguin Books,5,4
+9780743476793,The Stand,Horror,7,Stephen King,Doubleday,3,2
+9780451529942,Moby Dick,Classic,6.5,Herman Melville,Penguin Books,6,5
+9780061120084,To Kill a Mockingbird,Classic,5,Harper Lee,J.B. Lippincott & Co.,4,3
+9780743273564,The Hobbit,Fantasy,7,J.R.R. Tolkien,Houghton Mifflin Harcourt,2,1
+9780743247225,Angels & Demons,Mystery,7.5,Dan Brown,Doubleday,7,6
+9780553296982,The Catcher in the Rye,Classic,7,J.D. Salinger,"Little, Brown and Company",6,3
+9780525475355,The Great Gatsby,Classic,8,F. Scott Fitzgerald,Scribner,6,5
+9780679764898,Harry Potter and the Sorcerers Stone,Fantasy,7,J.K. Rowling,Scholastic,2,1
+9780330258648,Animal Farm,Classic,5.5,George Orwell,Penguin Books,5,4
+9780141439518,Pride and Prejudice,Classic,5.5,Jane Austen,Penguin Classics,6,5
+9780141439519,Pride and Prejudice,Classic,5.5,Jane Austen,Penguin Classics,4,4
+9780452282407,Brave New World,Dystopian,6.5,Aldous Huxley,Harper Perennial,4,4

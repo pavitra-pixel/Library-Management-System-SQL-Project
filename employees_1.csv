@@ -1,0 +1,15 @@
+emp_id,emp_name,position,branch_id
+101,John Doe,Clerk,1
+102,Jane Smith,Clerk,2
+103,Mike Johnson,Librarian,1
+104,Emily Davis,Assistant,1
+105,Sarah Brown,Assistant,1
+106,Michelle Ramirez,Assistant,1
+107,Michael Thompson,Clerk,5
+108,Jessica Taylor,Clerk,4
+109,Daniel Anderson,Manager,3
+110,Laura Martinez,Manager,5
+111,Christopher Lee,Assistant,5
+112,Robert Evans,Manager,1
+113,Sophia Patel,Manager,2
+114,James Carter,Manager,4
