@@ -20,4 +20,19 @@ Build a proper database for a multi-branch library that can:
 
 Diagram of how the tables connect:
 
-![Library ERD]()
+![Library ERD](https://github.com/pavitra-pixel/Library-Management-System-SQL-Project/blob/main/ERD.png)
+
+A couple of small but important design details:
+
+- A branch has one manager, and that manager is an employee — so *branch* and *employee* point to each other. Both tables are created first, and the connection between them is added afterward, so there's no "which one comes first" problem.
+- The database itself blocks bad data — for example, it won't let *available_copies* be a negative number or be higher than *total_copies*, and it won't let a due date be earlier than the issue date.
+
+## Tools Used
+
+- **PostgreSQL** — the database itself
+- **PL/pgSQL** — used to write the two automated commands (procedures) for issuing and returning books
+- **CSV files** — the actual data, loaded into the tables
+
+## All 21 Questions
+
+Full SQL code for every single one of these is in sql/Solutions.sql.
