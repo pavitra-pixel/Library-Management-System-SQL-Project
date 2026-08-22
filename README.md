@@ -109,7 +109,7 @@ ORDER BY rnk;
 
 **Q14. Branch wise employee's performance.**
 
-*Uses PARTITION BY so the ranking restarts for each branch, instead of ranking everyone company-wide.*
+*Uses `PARTITION BY` so the ranking restarts for each branch, instead of ranking everyone company-wide.*
 
 ```sql
 SELECT 
@@ -132,7 +132,7 @@ ORDER BY branch_id, rnk;
 
 **Q17. Which members have returned books late more than twice?**
 
-*Uses HAVING to filter on a count that's calculated inside the query itself.*
+*Uses `HAVING` to filter on a count that's calculated inside the query itself.*
 
 ```sql
 SELECT 
