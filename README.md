@@ -227,7 +227,7 @@ Used like this: `CALL return_book(1041);`
 
 - **Two people borrowing at the exact same time could get the same ID number.** Early versions figured out the next ID by finding the highest existing one and adding 1 — but two requests happening together could both pick the same number. Fixed by letting PostgreSQL generate the ID automatically and safely instead.
 
-- **IDs got out of sync after loading the CSV files.** When existing data is loaded straight from a CSV, the database doesn't know new IDs should start counting after the highest one already in the file. This was fixed with a small command at the bottom of *Schema.sql* that tells the database where to continue counting from.
+- **IDs got out of sync after loading the CSV files.** When existing data is loaded straight from a CSV, the database doesn't know new IDs should start counting after the highest one already in the file. This was fixed with a small command at the bottom of `Schema.sql` that tells the database where to continue counting from.
 
 - **A few small typos and logic mistakes** in the two automated commands (issue/return) were found and corrected while testing them.
 
