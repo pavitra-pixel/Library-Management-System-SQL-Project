@@ -35,4 +35,4 @@ A couple of small but important design details:
 
 ## All 21 Questions
 
-Full SQL code for every single one of these is in sql/Solutions.sql.
+Full SQL code for every single one of these is in ![Solutions.sql]()
