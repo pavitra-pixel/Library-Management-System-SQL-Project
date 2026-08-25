@@ -1,4 +1,4 @@
-# 📚 Library Management System — SQL Project.
+# 📚 Library Management System — SQL Project
 ## Overview
 
 A small database project that stores information for a library with multiple branches — books, branches, staff, members, and every time a book is borrowed or returned. Built in PostgreSQL, with 21 questions answered using SQL, plus two automated commands to issue and return books.
